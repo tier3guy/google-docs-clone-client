@@ -29,7 +29,7 @@ const TextEditor = () => {
     }, [socket, quill, documentId]);
     
     useEffect(() => {
-        const skt = io.connect('http://localhost:4000');
+        const skt = io.connect('https://google-docs-clone-server-3311np5n7-tier3guy.vercel.app/');
         setSocket(skt);
     }, []);
 
