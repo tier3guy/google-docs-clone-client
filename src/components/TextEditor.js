@@ -8,6 +8,7 @@ import Quill from 'quill';
 import 'quill/dist/quill.snow.css';
 
 const SAVE_INTERVAL_MS = 2000;
+const SERVER_LINK = 'https://google-docs-clone-server-8cep.onrender.com/';
 
 const TextEditor = () => {
 
@@ -29,7 +30,7 @@ const TextEditor = () => {
     }, [socket, quill, documentId]);
     
     useEffect(() => {
-        const skt = io.connect('https://google-docs-clone-server-3311np5n7-tier3guy.vercel.app/');
+        const skt = io.connect(SERVER_LINK);
         setSocket(skt);
     }, []);
 
