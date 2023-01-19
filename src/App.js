@@ -1,6 +1,10 @@
+import { TextEditor } from "./components"; 
+
 const App = () => {
   return(
-    <h1>App</h1>
+    <div className="App">
+      <TextEditor />
+    </div>
   );
 }
 
