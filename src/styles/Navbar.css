@@ -1,0 +1,18 @@
+nav{
+    width: 100%;
+    padding: 1em 3em;
+    font-family: var(--poppins);
+    border-bottom: 1px solid grey;
+}
+
+
+.logo > h1, .logo > h1 > span{
+    color: grey;
+    font-family: var(--poppins);
+    font-size: 1.1em;
+}
+
+.logo > h1 > span{
+    color: rgb(88, 84, 84);
+    font-weight: 400;
+}
